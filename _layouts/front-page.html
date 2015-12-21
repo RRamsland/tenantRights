@@ -1,12 +1,25 @@
 {% include head.html %}
 {% include header.html %}
 
-<div class="main-content cf" role="main">
-  <div class="container">
-  <div class="squish-content">
-{{ content }}
+<div class="page" role="main">
+	<div class="main-Content"> <!--Add frontWithAside to classes for content configuration with an aside /-->
+		<div class="content-back">
+			<h1 class="siteTitle">New York State Tenant Rights</h1>
+			<img class="banner-main" src="{{ page.banner }}">
+			<div class="content-front">
+				{{ content }}
+			</div>
+		</div>
 	</div>
-  </div>
+	<!--
+	<div class="aside frontAside">
+		<div class="sidebar">
+			<a class="subTopicLinks frontSTL" href="{{ site.url }}/helpful-links">Helpful Links</a>
+			<a class="subTopicLinks frontSTL" href="{{ site.url }}/about-us">Abous Us</a>
+			<a class="subTopicLinks frontSTL" href="{{ site.url }}/contact">Contact Us</a>
+			<a class="subTopicLinks frontSTL" href="{{ site.url }}/disclaimer">Disclaimer</a>
+		</div>
+	</div>
+	/-->
 </div>
-
 {% include footer.html %}

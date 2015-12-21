@@ -167,4 +167,9 @@
   $(function() {
     setTimeout(scroller, 0);
   });
+
+  $(window).resize(function() {
+    $(".sticky-wrapper").css('height', $(".site-header").outerHeight());
+  });
+  
 })(jQuery);

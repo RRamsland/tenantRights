@@ -1,17 +1,22 @@
 <a class="pageTopArrow" href="#" >
-            <img class="TopArrow" src="/team6/images/Up2.png" alt="Up Arrow">
+            <img class="TopArrow" src="/{{ site.pathname }}/images/Up2.png" alt="Up Arrow">
         </a>
          <header class="site-header cf" role="banner">
             <div class="container">
-				<a class="site-title" href="{{ site.url }}"><img src="/team6/images/NYSTR2.png" alt="NYS Tenants Rights logo"></a>
-                <img class="hamburger" src="/team6/images/hamburgerNew.png" alt="Menu Button">
+				<a class="site-title" href="{{ site.url }}"><img src="/{{ site.pathname }}/images/NYSTR11.png" alt="NYS Tenants Rights logo"></a>
+                <img class="hamburger" src="/{{ site.pathname }}/images/hamburgerNew.png" alt="Menu Button">
                 <nav class="navbar" role="navigation">
                     <ul class="header-nav">
-                        <li><a class="nav-link" href="{{ site.url}}/leases/">Leases</a></li>
-                        <li><a class="nav-link" href="{{ site.url}}/tenants-rights/">Tenant's Rights</a></li>
-                        <li><a class="nav-link" href="{{ site.url}}/repairs/">Repairs</a></li>
-                        <li><a class="nav-link" href="{{ site.url}}/termination/">Termination</a></li>
-                        <li><a class="nav-link" href="{{ site.url}}/evictions/">Evictions</a></li>
+                        <li><a class="nav-link" id="leases" href="{{ site.url}}/leases/">Leases</a></li>
+                        <li><a class="nav-link" id="tenants-rights" href="{{ site.url}}/tenants-rights/">Tenant's Rights</a></li>
+                        <li><a class="nav-link" id="repairs" href="{{ site.url}}/repairs/">Repairs</a></li>
+                        <li><a class="nav-link" id="termination" href="{{ site.url}}/termination/">Termination</a></li>
+                        <li><a class="nav-link" id="evictions" href="{{ site.url}}/evictions/">Evictions</a></li>
+                    </ul>
+                    <ul class="header-subnav">
+                        <li><a class="subnav-link" href="{{ site.url}}/about-us/">About Us</a></li>
+                        <li><a class="subnav-link" href="{{ site.url}}/contact/">Contact</a></li>
+                        <li><a class="subnav-link" href="{{ site.url}}/helpful-links/">Helpful Links</a></li>
                     </ul>
                 </nav>
            </div> <!-- / container -->
