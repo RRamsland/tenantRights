@@ -2,7 +2,7 @@
 title: NYS Tenant Rights
 description: Devoted to informing New York State tenants of their legal rights responsibilities and entitlements.
 url: http://rramsland.github.io/tenantRights
-pathname: team6
+pathname: tenantRights
 
 # Build Settings
 markdown: kramdown
