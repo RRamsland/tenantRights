@@ -1,0 +1,8 @@
+# Site Settings
+title: NYS Tenant Rights
+description: Devoted to informing New York State tenants of their legal rights responsibilities and entitlements.
+url: http://iinf362.github.io/team6/
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
